@@ -29,7 +29,7 @@ sh -c 'wget ts.sch.gr/repo/sch-scripts -O /tmp/i && sh /tmp/i sch_scripts'
 Για να εγκαταστήσετε τα **παλιά** sch-scripts/LTSP (περίπτωση "3"),
 χρησιμοποιήστε την παρακάτω εντολή. Στη συνέχεια μην χρησιμοποιείτε τον παρόντα
 οδηγό που είναι για το νέο LTSP, αλλά τον [παλιό οδηγό σε μορφή
-pdf](https://ts.sch.gr/docs/odigies-egkatastasis-diaxirisis/364-ubuntu18-04ltsp):
+pdf](https://ts.sch.gr/docs/odigies-egkatastasis-diaxirisis/ubuntu18-04ltsp/):
 
 ```shell
 sh -c 'wget ts.sch.gr/repo/sch-scripts -O /tmp/i && sh /tmp/i sch_scripts old'
