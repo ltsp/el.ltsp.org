@@ -270,10 +270,10 @@ USB), έτσι ώστε στη συνέχεια, να τον χρησιμοπο�
     Virtualization Technology (VT-x)***. Το αντίστοιχο μήνυμα για AMD CPU θα
     είναι: `AMD-V is disabled in the BIOS`.
 
-## Λ.Σ. δοκιμών (Windows 11) {#os-testing-windows}
+## Λ.Σ. δοκιμών (Windows) {#os-testing-windows}
 
 Για να κάνετε χρήση της έτοιμης εικονικής μηχανής π.χ. της Ubuntu Bionic MATE
-18.04 **32bit** σε περιβάλλον MS Windows 10, θα πρέπει να ακολουθήσετε τα επόμενα βήματα:
+18.04 **32bit** σε περιβάλλον MS Windows, θα πρέπει να ακολουθήσετε τα επόμενα βήματα:
 
 1. Από το `Powershell`:
 
@@ -289,6 +289,10 @@ USB), έτσι ώστε στη συνέχεια, να τον χρησιμοπο�
 	# Αποσυμπίεση στο φάκελο VirtualBox VMs/bionic-mate.
 	.'C:\Program Files\7-Zip\7z' x bionic-mate.squashfs -obionic-mate
     ```
+
+    !!! tip ""
+        Ναι... η τελευταία εντολή ξεκινά με μια τελίτσα `.` !
+
 
     !!! tip ""
         Αν για κάποιο λόγο το [`winget`](https://ts.sch.gr/wiki/windows/software/#winget) δεν υπάρχει στο σύστημά σας, δοκιμάστε χειροκίνητη εγκατάσταση των απαραίτητων λογισμικών [`7zip`](https://ts.sch.gr/wiki/windows/software/7zip), [`VirtualBox`](https://ts.sch.gr/wiki/windows/software/advanced/virtualbox/)).
@@ -311,7 +315,7 @@ USB), έτσι ώστε στη συνέχεια, να τον χρησιμοπο�
     εικονικής μηχανής. Το κυριότερο είναι το μέγεθος της μνήμης **RAM** να
     είναι στα **προτεινόμενα όρια**.
 
-    [![](VT-x_BIOS.png)](VT-x_BIOS.png)
+    [![](VT-x_BIOS_windows.png)](VT-x_BIOS_windows.png)
     Σε περίπτωση που κατά την ***Εκκίνηση*** εμφανιστεί το μήνυμα της διπλανής
     εικόνας, θα πρέπει από το BIOS/UEFI να ενεργοποιήσετε την επιλογή ***Intel
     Virtualization Technology (VT-x)***. Το αντίστοιχο μήνυμα για AMD CPU θα
